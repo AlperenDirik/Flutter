@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/Alpeen/text_learn.dart';
+import 'package:flutter_full_learn/Alpeen/container_sized_box_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.light(),
-      home: const TextLearnView(),
+      home: const ContainerSizedBoxLearn(),
     );
   }
 }
